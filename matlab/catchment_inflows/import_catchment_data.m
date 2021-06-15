@@ -2,7 +2,7 @@ clear all; close all;
 
 addpath(genpath('tuflowfv'));
 
-fid = fopen('..\..\..\Source_to_SCERM\SourceOutputs\TargetsScenarios - Targets.res.csv','rt');
+fid = fopen('D:\Cloud\AED Dropbox\AED_Swan_db\REG6.6\SourceOutputs\Swan2021_cutdown - LUC21 - 2021-06-15T16-56-51.res.csv','rt');
 
 
 isdata = 0;
