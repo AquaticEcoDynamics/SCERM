@@ -8,7 +8,7 @@ inflowfile = dir(['../Inflows/BCs/Flow/','*.csv']);
 
 load('data.mat');
 
-outdir = 'FLU/';
+outdir = 'Inflows_2020/';
 
 if ~exist(outdir,'dir')
     mkdir(outdir);
@@ -22,7 +22,7 @@ for i = 1:length(inflowfile)
     
 end
 
-thetime = datenum(2007,01,01):01:datenum(2019,01,01);
+thetime = datenum(2007,01,01):01:datenum(2021,01,01);
 
 
 inflownames = {...
