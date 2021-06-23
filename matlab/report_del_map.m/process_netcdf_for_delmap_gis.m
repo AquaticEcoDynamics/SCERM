@@ -24,23 +24,23 @@ faces = double(dat.cell_node');
 % %--% Fix the triangles
 faces(faces(:,4)== 0,4) = faces(faces(:,4)== 0,1);clear dat;
 
-% for i = 1:length(thenetcdf)
-%
-%     dat = tfv_readnetcdf(thenetcdf{i},'time',1);clear functions
-%     mtime = dat.Time; clear dat;
-%
-%     dat = tfv_readnetcdf(thenetcdf{i},'names',{'WQ_DIAG_TOT_TN'});
-%
-%     timeind = find(mtime >= thedates(1) & mtime < thedates(2));
-%
-%     thedata = dat.WQ_DIAG_TOT_TN(surf_ind,timeind);clear dat;
-%
-%     themap = mean(thedata,2);
-%
-%     output.(names{i}) = themap * 14/1000;
-% end
-%
-% save output.mat output -mat;
+for i = 1:length(thenetcdf)
+
+    dat = tfv_readnetcdf(thenetcdf{i},'time',1);clear functions
+    mtime = dat.Time; clear dat;
+
+    dat = tfv_readnetcdf(thenetcdf{i},'names',{'WQ_DIAG_TOT_TN'});
+
+    timeind = find(mtime >= thedates(1) & mtime < thedates(2));
+
+    thedata = dat.WQ_DIAG_TOT_TN(surf_ind,timeind);clear dat;
+
+    themap = mean(thedata,2);
+
+    output.(names{i}) = themap * 14/1000;
+end
+
+save output.mat output faces vert -mat;
 
 load output.mat;
 
