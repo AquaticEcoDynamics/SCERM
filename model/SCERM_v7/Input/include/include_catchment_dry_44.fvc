@@ -1,0 +1,318 @@
+! Fremantle___________________________________________________________
+bc == WL,1,..\..\BCs\Tide_v2\Fremantle_Inflow_2019_ARMS_filtered.csv
+bc header ==  ISOTime,wl,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 1,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.167,0.125,0.333,2.292,1.25,0.00754717
+bc offset == 0.2,0,0.5
+end bc
+
+! Catchment___________________________________________________________
+
+
+bc == QC,391724.5369,6458914.8458,..\..\BCs\Dry_44\South Perth06 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,388472.8012,6460201.3849,..\..\BCs\Dry_44\Downstream03 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,384894.5250,6460043.5165,..\..\BCs\Dry_44\Downstream02 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,382970.7357,6456268.0371,..\..\BCs\Dry_44\Downstream 1-4 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,388312.6839,6455897.6197,..\..\BCs\Dry_44\Downstream5-6 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,391911.0244,6456347.4122,..\..\BCs\Dry_44\Bullcreek8-9 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,393803.0636,6455465.5542,..\..\BCs\Dry_44\Bullcreek04 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,394120.5643,6456662.7962,..\..\BCs\Dry_44\South Perth05 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,394391.7627,6455974.8782,..\..\BCs\Dry_44\BullCreek10 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,396399.1605,6455725.5079,..\..\BCs\Dry_44\South Perth04 - Bullcreek11 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,397071.3358,6455454.3094,..\..\BCs\Dry_44\Bannister Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,397310.1227,6455617.6899,..\..\BCs\Dry_44\Lower Canning03 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,397716.2589,6456803.6871,..\..\BCs\Dry_44\Mills St Main Drain Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,394166.5741,6462349.4843,..\..\BCs\Dry_44\South Perth1-2 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,391920.5217,6463600.9660,..\..\BCs\Dry_44\CBD Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,392886.9142,6463204.7516,..\..\BCs\Dry_44\CBD03 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,394432.0840,6464210.1703,..\..\BCs\Dry_44\Claisebrook Main Drain Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,394352.7088,6465440.4853,..\..\BCs\Dry_44\Maylands04 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,395187.4709,6465972.2988,..\..\BCs\Dry_44\Maylands01 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,397368.9649,6465112.4013,..\..\BCs\Dry_44\Maylands03 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,396606.9634,6464183.7119,..\..\BCs\Dry_44\South Perth03 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,397716.8927,6464802.8382,..\..\BCs\Dry_44\South Belmont Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,397804.9590,6465237.4628,..\..\BCs\Dry_44\Belmont Central Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,396804.0783,6465994.7885,..\..\BCs\Dry_44\Maylands05 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,397195.6624,6466469.7165,..\..\BCs\Dry_44\Maylands02 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,398485.5088,6466710.4878,..\..\BCs\Dry_44\Bayswater Main Drain Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,399784.6155,6467698.7085,..\..\BCs\Dry_44\Upper Swan6-7 Outlfow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,399550.4588,6466846.7485,..\..\BCs\Dry_44\Perth Airport South Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,400086.2411,6467801.8962,..\..\BCs\Dry_44\Perth airport North 03 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,401697.5569,6468713.3877,..\..\BCs\Dry_44\Perth Airport North04 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,402011.0887,6469700.2855,..\..\BCs\Dry_44\Helena River Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,404589.8995,6472002.1651,..\..\BCs\Dry_44\Blackadder Creek Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,401608.0182,6470779.8088,..\..\BCs\Dry_44\Bennett Brook Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,398068.0748,6456658.7079,..\..\BCs\Dry_44\Lower Canning Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,407414.3836,6483340.2804,..\..\BCs\Dry_44\Upper Swan01 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 1,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,405830.0412,6480133.0190,..\..\BCs\Dry_44\Henley Brook Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,405796.4129,6481832.4707,..\..\BCs\Dry_44\Ellen Brook Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,406398.3412,6478629.0215,..\..\BCs\Dry_44\Susannah Brook Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,405552.2020,6476976.4307,..\..\BCs\Dry_44\Saint Leonards Creek Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,405615.5699,6474540.2748,..\..\BCs\Dry_44\Jane Brook Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,404967.3394,6475113.0989,..\..\BCs\Dry_44\Upper Swan8-10-12 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,406201.6231,6473573.2208,..\..\BCs\Dry_44\Upper Swan9-11 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,402763.3558,6470788.4757,..\..\BCs\Dry_44\Upper Swan 5-4 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+
+bc == QC,392426.4236,6453993.1513,..\..\BCs\Dry_44\Bullcreek5-7 Outflow.csv
+bc header ==  ISOTime,Flow,Sal,Temp,zeroes,zeroes,TSS,TSS,Oxy,Sil,Amm,Nit,FRP,FRP,DOC_T,POC_T,DON_T,PON_T,OP,OP,DOC_T,DON_T,OP,POC_T,CHLA,CHLA,CHLA,CHLA,CHLA,CHLA
+bc scale == 0.95,1,1,1,1,0.3,0.7,1,1,1,1,1,0.1,0.1,0.5,0.3,1,0.3,0.5,0.9,0.7,0.2,0.5,0.625,0.417,0.417,0.625,2.083,0.00754717
+bc offset == 0,0,0.5
+end bc
+
+

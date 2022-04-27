@@ -1,0 +1,21 @@
+!OUTPUT COMMANDS
+!_________________________________________________________________
+
+output dir == ..\..\Output\
+write restart dt == 120.
+
+!output == netcdf
+!  output parameters == h,v,w,D,Sal,Temp,WQ_DIAG_TOT_TN,WQ_DIAG_TOT_TP,WQ_NIT_AMM,WQ_NIT_NIT,WQ_PHS_FRP,WQ_TRC_AGE,WQ_OXY_OXY,WQ_DIAG_MAC_MAC,WQ_DIAG_OXY_SED_OXY,WQ_DIAG_OXY_ATM_OXY_FLUX,WQ_DIAG_OXY_SAT,WQ_DIAG_PHY_GPP,WQ_DIAG_PHY_TPHYS,WQ_DIAG_PHY_MPB,WQ_DIAG_PHY_BPP
+!  output interval   == 7200.0
+!end output
+
+output == netcdf
+  suffix == ALL
+  output parameters == h,v,w,D,Sal,Temp,trace_1,wq_all,wq_diag_all
+  output interval   == 7200.0
+  output compression == 1
+end output
+
+output == flux
+  output interval == 7200
+end output

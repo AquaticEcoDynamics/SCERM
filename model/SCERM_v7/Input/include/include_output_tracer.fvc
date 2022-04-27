@@ -1,0 +1,16 @@
+!OUTPUT COMMANDS
+!_________________________________________________________________
+
+output dir == ..\..\Output\
+write restart dt == 120.
+
+
+output == netcdf
+  suffix == ALL
+  output parameters == h,v,w,D,Sal,Temp,trace_1,trace_2,trace_3,trace_4,trace_5,trace_6,trace_7,trace_8,trace_9,trace_10,trace_11,trace_12,trace_13,trace_14,trace_15,trace_16,trace_17,trace_18,trace_19,trace_20,trace_21,trace_22,trace_23,trace_24,trace_25,trace_26,trace_27,trace_28,trace_29,trace_30
+  output interval   == 14400.0
+end output
+
+output == flux
+  output interval == 7200
+end output
