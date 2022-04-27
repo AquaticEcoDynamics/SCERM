@@ -16,6 +16,10 @@ The model uses the TUFLOW-FV 3D finite volume hydrodynamic model, and the AED wa
 
 Various generations of the model system exist and are archived; here the latest SCERM generation is active - SCERM v7. The model supports the Swan Canning Virtual Estuary Observatory (SCEVO) system and is used to improve understanding of management efforts and climate change.
 
+## Usage
+
+This repository includes the model files required for a TUFLOW-FV - AED simulation run. Running the setup contained herein requires users to have an active TUFLOW-FV license with the AED [pre-compiled plugin](https://aquatic.science.uwa.edu.au/research/models/AED/quickstart.html). Input files and model output files are able to be processed using the aed_matlab_modeltools repository and supporting scripts and site data. Please contact the developers for further information.
+
 ## References
 
 Huang, P., Trayler, K., Wang, B., Saeed, A., Oldham, C.E., Busch, B. and Hipsey, M.R., 2019. An integrated modelling system for water quality forecasting in an urban eutrophic estuary: The Swan-Canning Estuary virtual observatory. Journal of Marine Systems, 199, p.103218.
