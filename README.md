@@ -10,11 +10,11 @@
 
 ## The Swan-Canning Estuarine Response Model
 
-This repository houses the hydrodynamic-biogeochemical model for the [Swan Canning estaury](https://parks.dpaw.wa.gov.au/park/swan-canning-riverpark), located in Perth, Western Australia. 
+This repository houses the hydrodynamic-biogeochemical model for the [Swan Canning estuary](https://parks.dpaw.wa.gov.au/park/swan-canning-riverpark), located in Perth, Western Australia. 
 
-The model uses the TUFLOW-FV finite volume hydrodynamic model, and the AED water quality model.
+The model uses the TUFLOW-FV 3D finite volume hydrodynamic model, and the AED water quality model.
 
-Various generations of the model system exist and are archived; here the latest SCERM generation is active - SCERM v7.
+Various generations of the model system exist and are archived; here the latest SCERM generation is active - SCERM v7. The model supports the Swan Canning Virtual Estuary Observatory (SCEVO) system and is used to improve understanding of management efforts and climate change.
 
 ## References
 
